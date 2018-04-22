@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\oop_lab_02.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\oop_lab_02.dir/objects.a @CMakeFiles\oop_lab_02.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\oop_lab_02.dir/objects.a -Wl,--no-whole-archive  -o oop_lab_02.exe -Wl,--out-implib,liboop_lab_02.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop_lab_02.dir\linklibs.rsp
