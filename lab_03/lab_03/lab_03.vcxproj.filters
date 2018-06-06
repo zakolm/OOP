@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{71063b9c-3817-4075-8315-658823aaa30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\Файлы исходного кода">
+      <UniqueIdentifier>{c82e8754-5e55-4945-b8ec-989948592d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\Заголовочные файлы">
+      <UniqueIdentifier>{869f9c9a-80df-4a21-b804-132054072168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\Заголовочные файлы\exception">
+      <UniqueIdentifier>{6a0c0ff3-5257-4e52-a3c8-586c6949cb57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lab_03.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneFacade.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneContainer.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="transformManager.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="drawManager.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="loadManager.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3d.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="point3d.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="point2d.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="edge.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixDef.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="drawerVs.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="modelBuilder.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoader.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="absLoader.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="compositeObject.cpp">
+      <Filter>app\Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneFacade.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneContainer.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="baseManager.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="transformManager.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="drawManager.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="loadManager.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="obejct.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3d.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="point3d.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="point2d.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="edge.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixDef.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="baseDrawer.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="drawerVs.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="position.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="myProjector.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="absLoader.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="impLoader.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="baseProjector.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="baseModelBuilder.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="modelBuilder.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoader.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="commands.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="baseException.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="drawerExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="facadeExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="absLoaderExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoaderExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="managerExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="modelExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="builderExceptions.h">
+      <Filter>app\Заголовочные файлы\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="compositeObject.h">
+      <Filter>app\Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Файлы ресурсов</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

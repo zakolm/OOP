@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6DD4E929-A55C-4558-A476-6A37C828CCE1}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>lab_03</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="absLoader.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="cameraManager.cpp" />
+    <ClCompile Include="compositeObject.cpp" />
+    <ClCompile Include="drawerVs.cpp" />
+    <ClCompile Include="drawManager.cpp" />
+    <ClCompile Include="edge.cpp" />
+    <ClCompile Include="fileLoader.cpp" />
+    <ClCompile Include="lab_03.cpp" />
+    <ClCompile Include="loadManager.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="modelBuilder.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="point2d.cpp" />
+    <ClCompile Include="point3d.cpp" />
+    <ClCompile Include="sceneContainer.cpp" />
+    <ClCompile Include="sceneFacade.cpp" />
+    <ClCompile Include="transformManager.cpp" />
+    <ClCompile Include="vector3d.cpp" />
+    <ClCompile Include="matrixDef.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="absLoaderExceptions.h" />
+    <ClInclude Include="baseDrawer.h" />
+    <ClInclude Include="absLoader.h" />
+    <ClInclude Include="baseException.h" />
+    <ClInclude Include="baseManager.h" />
+    <ClInclude Include="baseModelBuilder.h" />
+    <ClInclude Include="builderExceptions.h" />
+    <ClInclude Include="commands.h" />
+    <ClInclude Include="compositeObject.h" />
+    <ClInclude Include="drawerExceptions.h" />
+    <ClInclude Include="facadeExceptions.h" />
+    <ClInclude Include="fileLoaderExceptions.h" />
+    <ClInclude Include="impLoader.h" />
+    <ClInclude Include="managerExceptions.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="baseProjector.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="cameraManager.h" />
+    <ClInclude Include="drawerVs.h" />
+    <ClInclude Include="edge.h" />
+    <ClInclude Include="iterator.h" />
+    <ClInclude Include="matrixDef.h" />
+    <ClInclude Include="modelBuilder.h" />
+    <ClInclude Include="fileLoader.h" />
+    <ClInclude Include="modelExceptions.h" />
+    <ClInclude Include="myProjector.h" />
+    <ClInclude Include="obejct.h" />
+    <ClInclude Include="drawManager.h" />
+    <ClInclude Include="loadManager.h" />
+    <ClInclude Include="point2d.h" />
+    <ClInclude Include="point3d.h" />
+    <ClInclude Include="position.h" />
+    <ClInclude Include="transformManager.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="sceneContainer.h" />
+    <ClInclude Include="sceneFacade.h" />
+    <ClInclude Include="vector3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
