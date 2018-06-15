@@ -12,6 +12,14 @@
 | :four: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | :five: | :white_check_mark: | :white_check_mark: |:white_check_mark: |
 
+---
+
+|Классификация готовности вопросов|
+|---|
+|:white_check_mark: - Вопрос готов.|
+|:x: - Вопрос не готов.|
+|:x::white_check_mark: - Вопрос так себе готов.|
+
 <h2>Вопросы к экзамену C++</h2>
 
 :white_check_mark:[1.	Структура программы на языках С и С++.](https://github.com/zakolm/OOP/wiki/1.%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D0%BD%D0%B0-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%D1%85-%D0%A1-%D0%B8-%D0%A1--.)
@@ -22,15 +30,15 @@
 
 :white_check_mark:[4.	Наследование в С++. Построение иерархии классов. Множественное наследование. Понятие доминирования. Порядок создания и уничтожения объектов. Неоднозначности при множественном наследовании.](https://github.com/zakolm/OOP/wiki/4.%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%A1--.-%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%B5%D1%80%D0%B0%D1%80%D1%85%D0%B8%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2.-%D0%9C%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.-%D0%9F%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.-%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%83%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2.-%D0%9D%D0%B5%D0%BE%D0%B4%D0%BD%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BF%D1%80%D0%B8-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8.)
 
-:x:[5.	Полиморфизм в С++. Понятие абстрактного класса. Дружественные связи.]()
+:white_check_mark:[5.	Полиморфизм в С++. Понятие абстрактного класса. Дружественные связи.](https://github.com/zakolm/OOP/wiki/5.%D0%9F%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC-%D0%B2-%D0%A1--.-%D0%9F%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D0%B5-%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0.-%D0%94%D1%80%D1%83%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8.)
 
 :white_check_mark:[6.	Перегрузка операторов в С++.](https://github.com/zakolm/OOP/wiki/6.%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2-%D0%B2-%D0%A1--.)
 
-:x:[7.	Шаблоны функций и классов в С++. Специализация шаблонов частичная и полная.]()
+:white_check_mark:[7.	Шаблоны функций и классов в С++. Специализация шаблонов частичная и полная.](https://github.com/zakolm/OOP/wiki/7.%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-%D0%B2-%D0%A1--.-%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BF%D0%BE%D0%BB%D0%BD%D0%B0%D1%8F.)
 
 :white_check_mark:[8.	Обработка исключительных ситуаций в С++. Пространства имен.](https://github.com/zakolm/OOP/wiki/8.%D0%9E%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B9-%D0%B2-%D0%A1--.-%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B0-%D0%B8%D0%BC%D0%B5%D0%BD.)
 
-:x:[9.	«Умные указатели» в С++: unique_ptr, shared_ptr, weak_ptr. Использование weak_ptr на примере паттерна итератор.]()
+:x::white_check_mark:[9.	«Умные указатели» в С++: unique_ptr, shared_ptr, weak_ptr. Использование weak_ptr на примере паттерна итератор.](https://github.com/zakolm/OOP/wiki/9.%C2%AB%D0%A3%D0%BC%D0%BD%D1%8B%D0%B5-%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%C2%BB-%D0%B2-%D0%A1--:-unique_ptr,-shared_ptr,-weak_ptr.-%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-weak_ptr-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D0%B0-%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80.)
 
 <h2>Вопросы к экзамену ООП</h2>
 
